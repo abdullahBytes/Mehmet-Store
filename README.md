@@ -17,8 +17,21 @@ npm run dev
   redeploying the site.
 - Edit `src/data/store.json` to change the store name or WhatsApp number. Use digits only, including
   the country code (for example, `923001234567`).
-- Prices are currently formatted as USD in `src/pages/IndexPage.vue`; change the currency there if
-  your catalog uses a different currency.
+- Prices are currently formatted as USD in `src/utils/store.js`; change the currency there if your
+  catalog uses a different currency.
+
+## Storefront code layout
+
+- `src/pages/IndexPage.vue` composes the storefront and coordinates shared page state.
+- `src/components/store/ProductCatalog.vue` handles product search, category filters, sorting, and
+  product cards.
+- `src/components/store/ProductDetailDialog.vue` handles product variants and the size guide.
+- `src/components/store/CartDrawer.vue` handles cart display and quantity updates.
+- `src/components/store/WhatsAppCheckoutDialog.vue` validates delivery details and creates the
+  prefilled WhatsApp order message.
+- `src/components/store/StoreHero.vue`, `BrandStory.vue`, and `WhatsAppContact.vue` contain the
+  standalone storefront sections.
+- `src/utils/store.js` contains shared formatting and WhatsApp-link helpers.
 
 The customer fills in their contact and delivery details, then the site opens WhatsApp with the
 cart and details prefilled. The customer must review and send that message; the site does not

@@ -31,10 +31,6 @@ watch(
   { deep: true },
 )
 
-export function productImage(image, width = 900) {
-  return `https://images.unsplash.com/${image}?auto=format&fit=crop&w=${width}&q=85`
-}
-
 export function cartCount() {
   return shop.cart.reduce((total, item) => total + item.quantity, 0)
 }
