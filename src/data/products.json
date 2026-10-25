@@ -1,0 +1,113 @@
+[
+  {
+    "id": "watch-01",
+    "name": "The Heritage Automatic",
+    "category": "Watches",
+    "price": 249,
+    "compareAt": 319,
+    "stock": 12,
+    "badge": "BESTSELLER",
+    "description": "A considered classic, built to be worn every day. A brushed steel case, sapphire crystal, and a precise automatic movement come together in a watch that only gets better with time.",
+    "colors": [
+      { "name": "Midnight", "hex": "#242832", "image": "photo-1524805444758-089113d48a6d" },
+      { "name": "Silver", "hex": "#c5c6c7", "image": "photo-1524592094714-0f0654e20314" },
+      { "name": "Rose Gold", "hex": "#c58b75", "image": "photo-1523170335258-f5ed11844a49" }
+    ],
+    "sizes": ["38mm", "42mm"],
+    "images": [
+      "photo-1524805444758-089113d48a6d",
+      "photo-1524592094714-0f0654e20314",
+      "photo-1523170335258-f5ed11844a49"
+    ]
+  },
+  {
+    "id": "underwear-01",
+    "name": "Everyday Modal Boxer",
+    "category": "Underwear",
+    "price": 32,
+    "compareAt": 42,
+    "stock": 8,
+    "badge": "CUSTOMER FAVOURITE",
+    "description": "Exceptionally soft modal with just the right amount of stretch. Designed with a supportive contour pouch and a stay-put waistband for all-day comfort.",
+    "colors": [
+      { "name": "Black", "hex": "#282727", "image": "photo-1598033129183-c4f50c736f10" },
+      { "name": "Navy", "hex": "#263a54", "image": "photo-1598033129183-c4f50c736f10" },
+      { "name": "Stone", "hex": "#b7a895", "image": "photo-1596755389378-c31d21fd1273" }
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "images": [
+      "photo-1598033129183-c4f50c736f10",
+      "photo-1598033129183-c4f50c736f10",
+      "photo-1596755389378-c31d21fd1273"
+    ]
+  },
+  {
+    "id": "watch-02",
+    "name": "The Field Chronograph",
+    "category": "Watches",
+    "price": 189,
+    "compareAt": null,
+    "stock": 4,
+    "badge": "LOW STOCK",
+    "description": "Made for the long way around. This lightweight field chronograph pairs a clean, easy-to-read dial with a durable strap and dependable water resistance.",
+    "colors": [
+      { "name": "Olive", "hex": "#5a6248", "image": "photo-1523275335684-37898b6baf30" },
+      { "name": "Black", "hex": "#292929", "image": "photo-1508685096489-7aacd43bd3b1" }
+    ],
+    "sizes": ["40mm"],
+    "images": ["photo-1523275335684-37898b6baf30", "photo-1508685096489-7aacd43bd3b1"]
+  },
+  {
+    "id": "underwear-02",
+    "name": "Ribbed Cotton Brief",
+    "category": "Underwear",
+    "price": 26,
+    "compareAt": null,
+    "stock": 21,
+    "badge": "NEW",
+    "description": "A breathable everyday essential in softly ribbed, long-staple cotton. Thoughtfully cut for a comfortable fit that holds its shape wash after wash.",
+    "colors": [
+      { "name": "Cloud", "hex": "#e7e3dd", "image": "photo-1596755389378-c31d21fd1273" },
+      { "name": "Ink", "hex": "#252b34", "image": "photo-1598033129183-c4f50c736f10" },
+      { "name": "Moss", "hex": "#727963", "image": "photo-1598033129183-c4f50c736f10" }
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "images": [
+      "photo-1596755389378-c31d21fd1273",
+      "photo-1598033129183-c4f50c736f10",
+      "photo-1598033129183-c4f50c736f10"
+    ]
+  },
+  {
+    "id": "watch-03",
+    "name": "The Minimalist 36",
+    "category": "Watches",
+    "price": 159,
+    "compareAt": 199,
+    "stock": 0,
+    "badge": "SOLD OUT",
+    "description": "Quietly confident and beautifully uncomplicated. A slim profile and understated face make this a versatile companion from workday to weekend.",
+    "colors": [
+      { "name": "Silver", "hex": "#c5c6c7", "image": "photo-1524592094714-0f0654e20314" },
+      { "name": "Gold", "hex": "#b99764", "image": "photo-1523170335258-f5ed11844a49" }
+    ],
+    "sizes": ["36mm"],
+    "images": ["photo-1524592094714-0f0654e20314", "photo-1523170335258-f5ed11844a49"]
+  },
+  {
+    "id": "underwear-03",
+    "name": "Sunday Lounge Set",
+    "category": "Underwear",
+    "price": 58,
+    "compareAt": 72,
+    "stock": 6,
+    "badge": "LOW STOCK",
+    "description": "Your slow-morning uniform. A relaxed-fit tee and lounge short in a lightweight cotton-modal blend that feels like a deep breath.",
+    "colors": [
+      { "name": "Sage", "hex": "#929886", "image": "photo-1598033129183-c4f50c736f10" },
+      { "name": "Charcoal", "hex": "#494a4d", "image": "photo-1596755389378-c31d21fd1273" }
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "images": ["photo-1598033129183-c4f50c736f10", "photo-1596755389378-c31d21fd1273"]
+  }
+]
